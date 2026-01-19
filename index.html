@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurant Item</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="src/output.css">
+</head>
+
+<body class="bg-black text-white">
+  <!-- navbar start -->
+  <nav class="absolute lg:static top-0 w-full pb-10 lg:pb-0">
+    <div class="container">
+      <div class=" flex lg:justify-between justify-center items-center lg:py-3.5">
+        <div><img src="assets/Logo.png" alt=""></div>
+        <ul class="hidden lg:flex gap-4">
+          <li><a href="#">Welcome</a></li>
+          <li><a href="#">Our Menu</a></li>
+          <li><a href="#">Franchise</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <div class=" hidden lg:flex gap-7.5 text-3xl">
+          <i class="fa-solid fa-cart-shopping"></i>
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+      </div>
+       <div class=" flex justify-between text-3xl mt-2.5 lg:hidden">
+          <i class="fa-solid fa-bars"></i>
+          <i class="fa-solid fa-cart-shopping"></i>
+        </div>
+    </div>
+  </nav>
+  <!-- navbar end -->
+  <!-- banner -->
+  <section>
+    <div class="bg-[url(/assets/background.png)]  bg-no-repeat bg-center bg-cover">
+      <div class="container">
+        <div class=" pt-40 pb-[43px] lg:pt-18 lg:pb-[246px] ">
+          <h1 class="font-semibold text-[29px] lg:font-black lg:text-[66px] lg:w-[652px] lg:leading-24">
+            <span class="block"> Welcome!</span>
+            <span> We Made Delicious</span> Food for You
+          </h1>
+          <p class=" text-sm lg:w-[510px] lg:text-xl font-normal pt-2.5 pb-10 leading-7.5">Lorem Ipsum is simply dummy text of the printing and typesetting  industry. </p>
+          <button class="btn"> Order online</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- banner end-->
+  <!-- best food maker -->
+  <section class="my-22.5 lg:my-37.5 ">
+    <div class="container">
+      <div class="">
+        <h2 class="leading-11.5  lg:w-[713px] mx-auto">
+          Why We are Best Food Maker
+        </h2>
+        <p class="text-sm text-center font-normal mt-4 mb-5 leading-6 lg:w-[820px] lg:mx-auto lg:text-xl lg:mt-8 lg:mb-17.5">
+         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.
+        </p>
+      </div>
+      <div class=" lg:flex lg:justify-between items-center">
+        <p class="text-sm font-normal leading-6 mb-7.5 lg:w-[513px]  lg:text-lg lg:leading-7.5">
+          It is a long established fact that a reader will be distracted layout. The point of using Lorem Ipsum is
+          that it has a more-or-less normal distribution of letters, as opposed to using English. Many desktop
+          publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for
+          'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the
+          years, sometimes by accident, sometimes on purpose It is a long established fact that a reader will be
+          distracted by the readable content of a page when looking at its layout. The normal distribution of letters,
+          as opposed to using 'Content Many desktop publishing packages and web page editors search for 'lorem ipsum'
+          will uncover many web sites still in humour and the like. Read More
+        </p>
+        <div class=" relative  ">
+          <div class="w-full ">
+            <img src="assets/Video.png" alt="">
+          </div>
+          <div
+            class="pulse h-15 w-15 lg:h-23 lg:w-23 bg-white top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] rounded-full absolute ">
+            <i
+              class="fa-solid fa-play text-black top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] text-2xl absolute"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+  <!-- best food maker -->
+  <!-- menu part -->
+  <section>
+    <div class="container">
+      <div>
+        <h2 class=" text-center">Our Best & Delicious Menu</h2>
+        <ul class=" lg:h-12 lg:flex lg:justify-between mt-12 text-lg lg:font-normal">
+          <li class="listing"><a href="#">All</a></li>
+          <li class="listing"><a href="#">Bread</a></li>
+          <li class="listing"><a href="#">Chiffon & Rolls</a></li>
+          <li class="listing"><a href="#">Donut</a></li>
+          <li class="listing"><a href="#">Pastry & Danish</a></li>
+          <li class="listing"><a href="#">Cakes</a></li>
+          <li class="listing"><a href="#">Cookies</a></li>
+        </ul>
+       
+      </div>
+      <div class= "mt-22 grid lg:grid-cols-3 md:grid-cols-2 gap-7.5 items-center ">
+        <div class=" py-5 px-5 bg-[#191919] rounded-xl   ">
+          <img class="hover:scale-150 transition duration-1000 linear" src="assets/food1.png" alt="">
+          <div class="">
+            <h3>Naan Burger</h3>
+            <p class=" py-2.5 text-base">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            </p>
+            <div class=" flex justify-between ">
+              <h3>$1.85</h3>
+              <div class="h-11 w-11 rounded-full border-1 border-white relative items-center">
+                <i
+                  class=" fa-solid fa-cart-flatbed text-2xl top-[50%]  left-[50%] translate-x-[-50%] translate-y-[-50%] absolute"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class=" ]  py-5 px-5 bg-[#191919] rounded-xl ">
+          <img class="hover:scale-150 transition duration-1000 linear" src="assets/food2.png" alt="">
+          <div class="">
+            <h3>Butter Chicken Taco</h3>
+            <p class="py-2.5 text-base">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            <div class=" flex justify-between">
+              <h3>$1.15</h3>
+              <div class="h-11 w-11 rounded-full border-1 border-white relative items-center">
+                <i class=" fa-solid fa-cart-flatbed text-2xl top-[50%]  left-[50%] translate-x-[-50%] translate-y-[-50%] absolute"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class=" py-5 px-5 bg-[#191919] rounded-xl  ">
+          <img class="hover:scale-150 transition duration-1000 linear" src="assets/food3.png" alt="">
+          <div class="">
+            <h3>Chicken Burger</h3>
+            <p class="py-2.5 text-base">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            <div class=" flex justify-between">
+              <h3>$2.00</h3>
+              <div class="h-11 w-11 rounded-full border-1 border-white relative items-center">
+                <i
+                  class=" fa-solid fa-cart-flatbed text-2xl top-[50%]  left-[50%] translate-x-[-50%] translate-y-[-50%] absolute"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="py-5 px-5 bg-[#191919] rounded-xl ">
+          <img class="hover:scale-150 transition duration-1000 linear" src="assets/food4.png" alt="">
+          <div class="">
+            <h3>Cheese Chicken Naan</h3>
+            <p class="py-2.5 text-base">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            <div class=" flex justify-between ">
+              <h3>$2.50</h3>
+              <div class="h-11 w-11 rounded-full border-1 border-white relative items-center">
+                <i
+                  class=" fa-solid fa-cart-flatbed text-2xl top-[50%]  left-[50%] translate-x-[-50%] translate-y-[-50%] absolute"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class=" py-5 px-5 bg-[#191919] rounded-xl  ">
+          <img class="hover:scale-150 transition duration-1000 linear" src="assets/food5.png" alt="">
+          <div class="">
+            <h3>3 Layer Burger</h3>
+            <p class="py-2.5 text-base">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            <div class=" flex justify-between">
+              <h3>4.99</h3>
+              <div class="h-11 w-11 rounded-full border-1 border-white relative items-center">
+                <i
+                  class=" fa-solid fa-cart-flatbed text-2xl top-[50%]  left-[50%] translate-x-[-50%] translate-y-[-50%] absolute"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class=" py-5 px-5 bg-[#191919] rounded-xl  ">
+          <img class="hover:scale-150 transition duration-1000 linear" src="assets/food6.png" alt="">
+          <div class="">
+            <h3>Sandwich</h3>
+            <p class="py-2.5 text-base">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            <div class=" flex justify-between ">
+              <h3>$2.80</h3>
+              <div class="h-11 w-11 rounded-full border-1 border-white relative items-center">
+                <i
+                  class=" fa-solid fa-cart-flatbed text-2xl top-[50%]  left-[50%] translate-x-[-50%] translate-y-[-50%] absolute"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="flex justify-center mt-20">
+        <button class="btn"> See All</button>
+      </div>
+    </div>
+  </section>
+  <!-- menu part -->
+  <!-- review -->
+  <section class="my-22.5 lg:my-37.5">
+    <div class="container">
+      <div class="">
+        <h2>We believe in making quality food</h2>
+      </div>
+      <div class=" grid lg:grid-cols-4 lg:justify-between text-center ">
+        <div class="items-center">
+          <h4 class=" text-center">2M+</h4>
+          <p class="text-lg text-center ">Happy Customers</p>
+        </div>
+        <div class="items-center">
+          <h4 class="text-center">98%</h4>
+          <p class="text-lg text-center">Customer Satisfaction</p>
+        </div>
+        <div class="items-center">
+          <h4 class="text-center">20+</h4>
+          <p class="text-lg text-center">Our Branches </p>
+        </div>
+        <div class="items-center">
+          <h4 class="text-center">100+</h4>
+          <p class="text-lg text-center">Total Employees </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- review -->
+  <!-- become a franchisee -->
+  <section>
+    <div class="container">
+      <div class="">
+        <h2 class="lg:leading-17.5 lg:w-[911px] lg:mx-auto ">
+          Start The Adventure Today And Become a Franchisee
+        </h2>
+        <p class="text-sm font-normal leading-6 lg:leading-7.5 text-center lg:text-xl mt-5 mb-15">
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+          standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
+          make a type specimen book. It has survived not only five centuries, but also the leap into electronic
+          typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset
+          sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus
+          PageMaker including versions of Lorem Ipsum.
+        </p>
+        <div class="flex justify-center"> <button class="btn">Become a Franchisee</button></div>
+      </div>
+    </div>
+  </section>
+  <!-- become a franchisee -->
+  <!-- rating -->
+  <section class="my-22.5 lg:my-37.5">
+    <div class="container">
+      <div>
+        <h2 class="">What Our Clients Are Saying</h2>
+      </div>
+      <div class="grid lg:grid-cols-3 my-17.5 gap-7.5 ">
+        <div class="py-7.5 px-5 lg:px-7.5 bg-[#191919] rounded-xl ">
+          <div class="flex gap-2 items-center">
+            <img src="assets/Avater.png" alt="">
+            <div>
+              <h5>Michal Gun</h5>
+              <p>Head of sales at Tesla </p>
+              <i class="fa-solid fa-star text-[#FF9901] text-[14px]"></i>
+              <i class="fa-solid fa-star text-[#FF9901] text-[14px]"></i>
+              <i class="fa-solid fa-star text-[#FF9901] text-[14px]"></i>
+              <i class="fa-solid fa-star text-[#FF9901] text-[14px]"></i>
+              <i class="fa-solid fa-star text-[#FF9901] text-[14px]"></i>
+            </div>
+          </div>
+          <div class="mt-5 mb-7.5">
+            <img src="assets/Group.png" alt="">
+          </div>
+          <p class="  text-sm leading-6  lg:text-lg font-normal lg:leading-7">There are many
+            variatioof passages of Lorem Ipsum ava but
+            the majority If you are going to use a passage of Lorem Ipsum, you need tasure there isn't anything
+            embarrassinhidden in believable.</p>
+        </div>
+        <div class="  py-7.5 px-5 lg:px-7.5 bg-[#191919] rounded-xl ">
+          <div class="flex gap-2 items-center">
+            <img src="assets/Avater2.png" alt="">
+            <div>
+              <h5>Aleena White</h5>
+              <p>Accountant of Ozone </p>
+              <i class="fa-solid fa-star text-[#FF9901] text-[14px]"></i>
+              <i class="fa-solid fa-star text-[#FF9901] text-[14px]"></i>
+              <i class="fa-solid fa-star text-[#FF9901] text-[14px]"></i>
+              <i class="fa-solid fa-star text-[#FF9901] text-[14px]"></i>
+              <i class="fa-solid fa-star text-[#FF9901] text-[14px]"></i>
+            </div>
+          </div>
+          <div class="mt-5 mb-7.5">
+            <img src="assets/Group.png" alt="">
+          </div>
+          <p class=" text-sm leading-6   ] lg:text-lg font-normal lg:leading-7">There are many
+            variatioof passages of Lorem Ipsum ava but
+            the majority If you are going to use a passage of Lorem Ipsum, you need tasure there isn't anything
+            embarrassinhidden in believable.</p>
+        </div>
+        <div class="  py-7.5 px-5 lg:px-7.5 bg-[#191919] rounded-xl ">
+          <div class="flex gap-2 items-center">
+            <img src="assets/Avater 3.png" alt="">
+            <div>
+              <h5>Cries Lee</h5>
+              <p>CEO Of Montee </p>
+              <i class="fa-solid fa-star text-[#FF9901] text-[14px]"></i>
+              <i class="fa-solid fa-star text-[#FF9901] text-[14px]"></i>
+              <i class="fa-solid fa-star text-[#FF9901] text-[14px]"></i>
+              <i class="fa-solid fa-star text-[#FF9901] text-[14px]"></i>
+              <i class="fa-solid fa-star text-[#FF9901] text-[14px]"></i>
+            </div>
+          </div>
+          <div class="mt-5 mb-7.5">
+            <img src="assets/Group.png" alt="">
+          </div>
+          <p class="text-sm leading-6   ] lg:text-lg font-normal lg:leading-7">There are many
+            variatioof passages of Lorem Ipsum ava but
+            the majority If you are going to use a passage of Lorem Ipsum, you need tasure there isn't anything
+            embarrassinhidden in believable.</p>
+        </div>
+        <div class="  py-7.5 px-5 lg:px-7.5 bg-[#191919] rounded-xl ">
+          <div class="flex gap-2 items-center">
+            <img src="assets/Avater.png" alt="">
+            <div>
+              <h5>Michal Gun</h5>
+              <p>Head of sales at Tesla </p>
+              <i class="fa-solid fa-star text-[#FF9901] text-[14px]"></i>
+              <i class="fa-solid fa-star text-[#FF9901] text-[14px]"></i>
+              <i class="fa-solid fa-star text-[#FF9901] text-[14px]"></i>
+              <i class="fa-solid fa-star text-[#FF9901] text-[14px]"></i>
+              <i class="fa-solid fa-star text-[#FF9901] text-[14px]"></i>
+            </div>
+          </div>
+          <div class="mt-5 mb-7.5">
+            <img src="assets/Group.png" alt="">
+          </div>
+          <p class=" text-sm leading-6   ] lg:text-lg font-normal lg:leading-7">There are many
+            variatioof passages of Lorem Ipsum ava but
+            the majority If you are going to use a passage of Lorem Ipsum, you need tasure there isn't anything
+            embarrassinhidden in believable.</p>
+        </div>
+        <div class=" py-7.5 px-5 lg:px-7.5 bg-[#191919] rounded-xl ">
+          <div class="flex gap-2 items-center">
+            <img src="assets/Avater2.png" alt="">
+            <div>
+              <h5>Aleena White</h5>
+              <p>Accountant of Ozone </p>
+              <i class="fa-solid fa-star text-[#FF9901] text-[14px]"></i>
+              <i class="fa-solid fa-star text-[#FF9901] text-[14px]"></i>
+              <i class="fa-solid fa-star text-[#FF9901] text-[14px]"></i>
+              <i class="fa-solid fa-star text-[#FF9901] text-[14px]"></i>
+              <i class="fa-solid fa-star text-[#FF9901] text-[14px]"></i>
+            </div>
+          </div>
+          <div class="mt-5 mb-7.5">
+            <img src="assets/Group.png" alt="">
+          </div>
+          <p class="text-sm leading-6   ] lg:text-lg font-normal lg:leading-7">There are many
+            variatioof passages of Lorem Ipsum ava but
+            the majority If you are going to use a passage of Lorem Ipsum, you need tasure there isn't anything
+            embarrassinhidden in believable.</p>
+        </div>
+        <div class=" py-7.5 px-5 lg:px-7.5 bg-[#191919] rounded-xl">
+          <div class="flex gap-2 items-center">
+            <img src="assets/Avater 3.png" alt="">
+            <div>
+              <h5>Cries Lee</h5>
+              <p>CEO Of Montee </p>
+              <i class="fa-solid fa-star text-[#FF9901] text-[14px]"></i>
+              <i class="fa-solid fa-star text-[#FF9901] text-[14px]"></i>
+              <i class="fa-solid fa-star text-[#FF9901] text-[14px]"></i>
+              <i class="fa-solid fa-star text-[#FF9901] text-[14px]"></i>
+              <i class="fa-solid fa-star text-[#FF9901] text-[14px]"></i>
+            </div>
+          </div>
+          <div class="mt-5 mb-7.5">
+            <img src="assets/Group.png" alt="">
+          </div>
+          <p class=" text-sm leading-6 lg:text-lg font-normal lg:leading-7">There are many
+            variatioof passages of Lorem Ipsum ava but
+            the majority If you are going to use a passage of Lorem Ipsum, you need tasure there isn't anything
+            embarrassinhidden in believable.</p>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+  <!-- ratings -->
+  <!-- support -->
+  <section class="bg-white py-20"> 
+    <div class="container">
+      <div class="pb-12.5">
+        <h1 class="text-[30px] lg:text-[70px] font-bold text-black text-center">For more Support</h1>
+      </div>
+      <div class="  lg:flex lg:justify-center lg:gap-4">
+        <div class=" mb-5 lg:mb-0 border-black font-bold text-black border-2 rounded-full ">
+          <input type="search" placeholder="Enter Email" class="lg:py-5 ps-7.5 lg:pe-[400px]
+          py-4 pe-[103px] ">
+        </div>
+        <div class=" bg-black text-white rounded-full  font-semibold text-lg">
+          <button class="py-4 px-[125px] lg:py-5 lg:px-[54px]">subscribe</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- support -->
+  <!-- location -->
+  <section class="my-22.5 lg:my-37.5">
+    <div class="container">
+      <div class=" lg:flex lg:justify-between items-center">
+        <div class="  ">
+          <h2 class="leading-12.5 lg:leading-17.5 font-bold text-start">
+            <span class="block"> Our Restaurants. </span> Where to Find Us?</h2>
+          <p class="lg:w-[542px] mt-4 mb-7.5 lg:mb-17.5 text-sm leading-6 lg:text-xl font-normal">Want to have a superb meal in an exceptional setting with family,
+            friends or work colleagues, here are the
+            addresses of our restaurants.</p>
+          <div class=" mb-15 ">
+            <button class="btn">Find The Nearest Cheffest</button>
+          </div>
+        </div>
+        <div class="w-full">
+          <iframe class="rounded-xl" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3652.1702543957!2d90.38000527507221!3d23.741307389125843!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8b7a55cd36f%3A0xfcc5b021faff43ea!2sCreative%20IT%20Institute!5e0!3m2!1sen!2sbd!4v1758359304058!5m2!1sen!2sbd" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- location -->
+  <!-- footer -->
+    <footer class=" bg-[#191919] ">
+      <div class="container">
+        <div>
+          <div class="lg:flex lg:justify-between py-20 ">
+            <div class="mb-15">
+              <p class="font-semibold text-2xl mb-7.5">Our Products</p>
+              <ul class="leading-8">
+                <li><a href="#">Our menus</a></li>
+                <li><a href="#">Our burgers</a></li>
+                <li><a href="#">Our times sides</a></li>
+                <li><a href="#">Our sandwiches</a></li>
+              </ul>
+            </div>
+            <div class="mb-15">
+              <p class="font-semibold text-2xl mb-7.5">legal information</p>
+              <ul class="leading-8">
+                <li><a href="#">Legal Notice</a></li>
+              </ul>
+            </div>
+            <div  class="mb-15">
+              <p class="font-semibold text-2xl mb-7.5">Contact us</p>
+              <ul class="leading-8">
+                <li><a href="#">Contacts</a></li>
+                <li><a href="#">Our addresses</a></li>
+                <li><a href="#">Become a Times Square franchisee</a></li>
+              </ul>
+            </div>
+            <div class="">
+              <p class="font-semibold text-2xl mb-7.5">We accept</p>
+              <div>
+                <div class="flex mb-15">
+                  <img class="scale-" src="assets/Mastercard.png" alt=""> <img class="scale-" src="assets/visa-logo.png"
+                    alt="">
+                </div>
+                <img src="assets/express.png" alt="">
+              </div>
+            </div>
+          </div>
+          <hr class="text-[#4F4F4F]">
+          <div class=" lg:flex lg:justify-between pt-7 pb-20">
+            <div class="flex gap-4 mb-3">
+              <img src="assets/Icon.png" alt="">
+              <img src="assets/Icon (1).png" alt="">
+              <img src="assets/Icon (2).png" alt="">
+              <img src="assets/Icon (3).png" alt="">
+            </div>
+            <p>© 2024 Nayef All rights reserved.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/js/all.min.js"
+      integrity="sha512-6BTOlkauINO65nLhXhthZMtepgJSghyimIalb+crKRPhvhmsCdnIuGcVbR5/aQY2A+260iC1OPy1oCdB6pSSwQ=="
+      crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+
+</html>
