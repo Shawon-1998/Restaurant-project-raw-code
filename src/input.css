@@ -13,7 +13,7 @@
 @layer utilities {
   .container {
     margin: auto;
-    padding: 0px 20px;
+    
   }
   .pulse{
     animation: animate 2s linear infinite;
@@ -29,6 +29,12 @@
     @apply hover:border-b-4  border-white py-2 px-2 lg:px-5 rounded-[12px] 
   }
  
+}
+.banner{
+  background-image: url("/assets/Background.png") !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
 
 @layer base{
