@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Averia+Gruesa+Libre&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Sora:wght@100..800&display=swap');
+
 @import "tailwindcss";
 
 *{
@@ -26,12 +28,12 @@
     @apply py-[17px] px-[34px] lg:py-5 lg:px-12.5 bg-white text-black rounded-full  lg:font-bold lg:text-lg font-semibold text-base 
   }
   .listing{
-    @apply hover:border-b-4  border-white py-2 px-2 lg:px-5 rounded-[12px] 
+    @apply hover:border-b-4  border-white py-2 px-2 lg:px-5 rounded-xl 
   }
  
 }
-.banner{
-  background-image: url("/assets/Background.png") !important;
+.bannerPart{
+ background-image: url("/assets/banner.png");
   background-repeat: no-repeat;
   background-size: cover;
 
